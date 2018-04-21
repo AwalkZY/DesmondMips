@@ -1,0 +1,74 @@
+body {
+    background: #2C3E50;
+}
+
+textarea {
+    font-size: 16px !important;
+    height: 50% !important;
+    resize: none;
+}
+
+.tip {
+    color: #FFFFFF;
+}
+
+.code-panel {
+    margin-top: 3%;
+}
+
+.button-panel,.register-panel {
+    margin-top: 3%;
+}
+
+#fileup {
+    display: none;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+table{
+    font-size: 14px !important;
+    background-color: #FFFFFF !important;
+}
+
+::-webkit-scrollbar {display:none}
+
+.drSpan{
+    color:#E74C3C;
+}
+
+.srSpan{
+    color:#F39C12;
+}
+
+.trSpan{
+    color:#27AE60;
+}
+
+.sourceSpan{
+    color:#F39C12;
+}
+
+.registerSpan{
+    color:#2980B9
+}
+
+.labelSpan{
+    color:#E74C3C;
+}
+
+.instSpan{
+    color:#8E44AD;
+}
+
+.modal-body{
+    font-size:14px !important;
+}
+
+.Copyright{
+    text-align:right;
+}

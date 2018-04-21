@@ -1,0 +1,283 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css"  href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css"/>
+    <script src="https://cdn.bootcss.com/vue/2.5.16/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/flat-ui/2.3.0/css/flat-ui.css"/>
+    <script src="https://cdn.bootcss.com/flat-ui/2.3.0/js/flat-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script src="js/application.js"></script>
+    <script src="js/sweetAlert.js"></script>
+    <script src="js/FileSaver.js"></script>
+</head>
+<body>
+<div class="modal fade" id="Help" tabindex="-1" role="dialog" aria-labelledby="helpLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="helpLabel">Helper</h4>
+            </div>
+            <div class="modal-body">
+                <ol>
+                    <li>点击上方导航条对应按钮或点击导航条最右侧文字，可切换汇编器与模拟器界面。</li>
+                    <li>汇编器<ol>
+                        <li>页面左侧文本框用于放置Mips代码，右侧文本框用于放置Coe/Raw代码。</li>
+                        <li>点击两侧文本框最下方按钮，可完成代码转换，点击左侧"Get the line number"按钮后，各行行号以注释形式显示于行末。</li>
+                        <li>汇编器支持文件拖拽上传，支持文件上传与下载，支持语法检查，支持进制选择、生成代码格式选择、导出/导入文件选择。<br/> 文件拖拽上传默认开启，其他功能如需使用，请于中央菜单处进行选择。</li>
+                    </ol></li>
+                    <li>模拟器<ol>
+                        <li>页面左侧文本框用于放置Mips代码，右侧文本框用于显示寄存器当前数值。</li>
+                        <li>模拟器支持语法检查、支持单步执行、支持全部执行、支持初始化功能、支持文件拖拽上传、支持滚动条跟随、代码高亮、寄存器键值对高亮、执行代码跟踪等。<br/>除前四项外其余默认开启，如需使用前四项功能，请于中央菜单处进行操作。</li>
+                        <li>模拟执行代码前需点击Submit & Format按钮锁定Mips代码</li>
+                    </ol></li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="Comments" tabindex="-1" role="dialog" aria-labelledby="commentsLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="commentsLabel">Comments</h4>
+            </div>
+            <div class="modal-body">
+                <ol>
+                    <li>工程在Win 10 Chrome 64.0.3282.167/ Firefox 59.0.2下正常运行，工程采用Ecmascript6为编程语言，并调用了以下js或css库：</li>
+                    <ul>
+                        <li>Flat UI</li>
+                        <li>Bootstrap</li>
+                        <li>Sweet Alert</li>
+                        <li>Jquery</li>
+                        <li>FileSaver</li>
+                    </ul>
+                    <li>汇编器<ol>
+                        <li>目前已实现27条指令的汇编与反汇编操作。</li>
+                        <li>默认设置导入导出文件格式互反，以节省冗余的操作。</li>
+                    </ol></li>
+                    <li>模拟器<ol>
+                        <li>目前已实现27条指令的模拟操作。</li>
+                        <li>全部执行指令的执行上限设置为10000次，超出此上限时，程序判定代码内存在死循环并退出。</li>
+                    </ol></li>
+                    <li>注：27条指令包括：<ul>
+                        <li>R-type: add,sub,and,or,sll,srl,slt,jr,nor,xor,sra,sllv,srlv,srav</li>
+                        <li>I-type: addi,ori,andi,lw,sw,bne,beq,lui,slti,xori</li>
+                        <li>J-type: j,jal</li>
+                        <li>Pseudo: move</li>
+                    </ul></li>
+                    <li>如有任何使用问题或程序存在bug，请在github：处提交issue，感谢您的支持。</li>
+                </ol>
+                <p class="Copyright">Copyright © 2018 Desmond. All rights reserved.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mips">
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Mips</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li :class="{'active':mode}"><a onclick="vm.mode = true">Assembler 汇编器</a></li>
+                    <li :class="{'active':!mode}"><a onclick="vm.mode = false">Simulator 模拟器</a></li>
+                    <li><a data-toggle="modal" data-target="#Help" href="#">Helper 帮助</a></li>
+                    <li><a data-toggle="modal" data-target="#Comments" href="#">Comments 说明</a></li>
+                </ul>
+                <a class="navbar-brand navbar-right" onclick="vm.mode = !vm.mode">{{mode === true ? "Assembler" : "Simulator"}}</a>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+    <div id="assembler" class="container">
+        <div class="row">
+            <div class="col-md-4 code-panel mips-panel">
+                <h6 class="tip">Mips code:</h6>
+                <transition name="fade" mode="out-in"> <!--middle menu-->
+                    <div v-if="!lock" key="mips_input">
+                        <textarea class="form-control" v-model="mips_code" spellcheck="false"
+                                  placeholder="Please input mips code in this text area">{{mips_code}}</textarea>
+                        <br/>
+                        <button class="btn btn-large btn-block btn-primary" @click="getLines" key="lines">Get the Line Number</button>
+                        <transition name="fade" mode="out-in">
+                            <button v-if="mode" class="btn btn-large btn-block btn-primary" @click="encode_outer" :key="radix">{{radix == 2 ? "Mips to Binary" : "Mips to Hexadecimal"}}</button>
+                        </transition>
+                    </div>
+                    <div v-else key="mips_table">
+                        <div class="panel panel-default">
+                            <div class="panel-body" id="mips_table_panel" style="overflow-y: auto;height: 65%">
+                                <table id="mips_table" class="table table-hover " style="border-radius: 3px">
+                                    <thead>
+                                    <tr>
+                                        <th>Row</th>
+                                        <th>Instruction</th>
+                                    </tr>
+                                    </thead>
+                                    <tr v-for="(item,key) in mips_inst_display">
+                                        <td :class="[PC === key ? 'danger' : '']">{{key}}</td>
+                                        <td v-html="item" :class="[PC === key ? 'danger' : '']">{{item}}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+            <div class="col-md-offset-1 col-md-2 tile button-panel">
+                <h6>Menu</h6>
+                <transition name="fade" mode="out-in"> <!--middle menu-->
+                    <div v-if="mode === true" key="asr_button">
+                        <div><label><strong>Radix:</strong>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="radio1" class="radio">
+                                        <input id="radio1" type="radio" v-model="radix" name="radix" checked="" value="2" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Bin
+                                    </label>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="radio2" class="radio">
+                                        <input id="radio2" type="radio" v-model="radix" name="radix" value="16" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Hex
+                                    </label>
+                                </div>
+                            </div>
+                        </label></div>
+                        <div><label><strong>Format:</strong>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="radio3" class="radio">
+                                        <input id="radio3" type="radio" v-model="coe" name="coe" checked="" value="true" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Coe
+                                    </label>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="radio4" class="radio">
+                                        <input id="radio4" type="radio" v-model="coe" name="coe" value="false" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Raw
+                                    </label>
+                                </div>
+                            </div>
+                        </label></div>
+                        <div><label><strong>Import:</strong>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="radio5" class="radio">
+                                        <input id="radio5" type="radio" v-model="fimport" name="fimport" checked="" value="Mips" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Mips
+                                    </label>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="radio6" class="radio">
+                                        <input id="radio6" type="radio" v-model="fimport" name="fimport" value="Raw" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Raw
+                                    </label>
+                                </div>
+                            </div>
+                        </label></div>
+                        <button class="btn btn-large btn-block btn-primary" onclick="document.getElementById('fileup').click();">Upload File</button>
+                        <input type="file" id="fileup" onchange="file_upload()"/>
+                        <br/>
+                        <div><label><strong>Export:</strong>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="radio7" class="radio">
+                                        <input id="radio7" type="radio" v-model="fexport" name="fexport" checked="" value="Mips" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Mips
+                                    </label>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="radio8" class="radio">
+                                        <input id="radio8" type="radio" v-model="fexport" name="fexport" value="Raw" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Raw
+                                    </label>
+                                </div>
+                            </div>
+                        </label></div>
+                        <button class="btn btn-large btn-block btn-primary" onclick="file_download()"> Download File</button>
+                    </div>
+                    <div v-else key="sim_button">
+                        <div><label><strong>Value Format:</strong>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="radio9" class="radio">
+                                        <input id="radio9" type="radio" v-model="rformat" name="rformat" checked="" value="10" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Dec
+                                    </label>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="radio10" class="radio">
+                                        <input id="radio10" type="radio" v-model="rformat" name="rformat" value="16" class="custom-radio"/><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                                        Hex
+                                    </label>
+                                </div>
+                            </div>
+                        </label></div>
+                        <br/>
+                        <button class="btn btn-large btn-block btn-primary" @click="submit()">{{lock === true ? "Withdraw" : "Submit & Format"}}</button>
+                        <br/>
+                        <button class="btn btn-large btn-block btn-primary" @click="check()">Check Rules</button>
+                        <br/>
+                        <button :class="['btn','btn-large','btn-block','btn-primary',{disabled:!lock}]" @click="one_step()">Execute One Step</button>
+                        <br/>
+                        <button :class="['btn','btn-large','btn-block','btn-primary',{disabled:!lock}]" @click="reinit()">Re-initialize</button>
+                        <br/>
+                        <button :class="['btn','btn-large','btn-block','btn-primary',{disabled:!lock}]" @click="executeAll()">Execute All</button>
+                    </div>
+                </transition>
+            </div>
+            <transition name="fade" mode="out-in">
+                <div v-if="mode === true" key="code_panel" class="col-md-offset-1 col-md-4 code-panel raw-panel">
+                    <h6 class="tip">{{radix == 2 ? "Binary" : "Hexadecimal"}} code:</h6>
+                    <textarea class="form-control" v-model="binary_code" spellcheck="false"
+                              placeholder="Please input code in this text area">{{binary_code}}</textarea>
+                    <br/>
+                    <button class="btn btn-large btn-block btn-primary" @click="decode_outer" :key="radix">{{radix == 2 ? "Binary to Mips" : "Hexadecimal to Mips"}}</button>
+                </div>
+                <div v-else key="reg_table" class="col-md-offset-1 col-md-4 code-panel raw-panel">
+                    <h6 class="tip">Register:</h6>
+                    <div class="panel panel-default">
+                        <div class="panel-body" style="overflow-y: auto;height: 65%">
+                            <table id="register" class="table table-hover " style="border-radius: 3px">
+                                <thead>
+                                <tr>
+                                    <th>Reg</th>
+                                    <th>value</th>
+                                    <th>Reg</th>
+                                    <th>value</th>
+                                </tr>
+                                </thead>
+                                <tr>
+                                    <td class="drSpan">PC</td>
+                                    <td class="drSpan">{{PC_value}}</td>
+                                    <td :class="[immActive?'drSpan':'']">imm</td>
+                                    <td :class="[immActive?'drSpan':'']">{{imm_value}}</td>
+                                </tr>
+                                <tr v-for="(item,key) in v_reg" v-if="(key+1)%2">
+                                    <td :class="[rdReg === key ? 'drSpan' : rsReg === key ? 'srSpan' : rtReg === key ? 'trSpan' : '']">{{v_reg[key]}}</td>
+                                    <td :class="[rdReg === key ? 'drSpan' : rsReg === key ? 'srSpan' : rtReg === key ? 'trSpan' : '']">{{reg_value[key]}}</td>
+                                    <td :class="[rdReg === key+1 ? 'drSpan' : rsReg === key+1 ? 'srSpan' : rtReg === key+1 ? 'trSpan' : '']">{{v_reg[key+1]}}</td>
+                                    <td :class="[rdReg === key+1 ? 'drSpan' : rsReg === key+1 ? 'srSpan' : rtReg === key+1 ? 'trSpan' : '']">{{reg_value[key+1]}}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </transition>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/file.js"></script>
+<script src="js/main.js"></script>
+<script src="js/exception.js"></script>
+</html>
