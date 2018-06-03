@@ -32,14 +32,17 @@ function file_upload() {
     fr.onload = function (e) {
         data = this.result;
         try{
-            if (String(vm.coe) === "true")
-            {
-                let temp = data.split(/[,;\n]/).map(x => x.trim()).filter(x => x !== "");
-                if (temp[0].match(/memory_initialization_radix=[0-9]/) === null) throw new Error("In function file_upload:The format of coe file is invalid!");
-                if (temp[1].match(/memory_initialization_vector=/) === null) throw new Error("In function file_upload:The format of coe file is invalid!");
-            }
             if (vm.fimport === "Mips") vm.mips_code = data;
-            else vm.binary_code = data;
+            else 
+            {
+            	if (String(vm.coe) === "true")
+            	{
+                	let temp = data.split(/[,;\n]/).map(x => x.trim()).filter(x => x !== "");
+                	if (temp[0].match(/memory_initialization_radix=[0-9]/) === null) throw new Error("In function file_upload:The format of coe file is invalid!");
+                	if (temp[1].match(/memory_initialization_vector=/) === null) throw new Error("In function file_upload:The format of coe file is invalid!");
+            	}
+            	vm.binary_code = data;
+            }
         } catch(err)
         {
             displayErr(err);

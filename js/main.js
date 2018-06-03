@@ -1,1 +1,706 @@
-n9UU.M1=function (){return typeof n9UU.T1.k1==='function'?n9UU.T1.k1.apply(n9UU.T1,arguments):n9UU.T1.k1;};n9UU.B1=function (){return typeof n9UU.T1.k1==='function'?n9UU.T1.k1.apply(n9UU.T1,arguments):n9UU.T1.k1;};n9UU.T1=function(N1,q1){var f1=2;while(f1!==10){switch(f1){case 5:p1=q1.filter.constructor(N1)();f1=4;break;case 9:var c1='fromCharCode',a1='RegExp';f1=8;break;case 2:var p1,l1,Q1,w1;f1=1;break;case 8:f1=!w1--?7:6;break;case 4:f1=!w1--?3:9;break;case 3:l1=typeof N1;f1=9;break;case 1:f1=!w1--?5:4;break;case 7:Q1=l1.replace(new p1[a1]("^['-|]"),'S');f1=6;break;case 13:f1=!w1--?12:11;break;case 6:f1=!w1--?14:13;break;case 14:q1=q1.map(function(K1){var m1=2;while(m1!==13){switch(m1){case 3:m1=A1<K1.length?9:7;break;case 1:m1=!w1--?5:4;break;case 5:t1='';m1=4;break;case 2:var t1;m1=1;break;case 9:t1+=p1[Q1][c1](K1[A1]+117);m1=8;break;case 4:var A1=0;m1=3;break;case 8:A1++;m1=3;break;case 7:m1=!t1?6:14;break;case 6:return;break;case 14:return t1;break;}}});f1=13;break;case 12:n1=n1(new p1[q1[0]]()[q1[1]]());f1=11;break;case 11:return{k1:function(z1,e1){var U1=2;while(U1!==16){switch(U1){case 2:U1=!w1--?1:5;break;case 5:var W1,P1=0;U1=4;break;case 4:var Z1=n1;U1=3;break;case 18:D1=1;U1=10;break;case 1:e1=p1[q1[4]];U1=5;break;case 11:var D1=2;U1=10;break;case 10:U1=D1!==1?20:17;break;case 12:U1=!Z1?11:17;break;case 7:U1=P1===0?6:13;break;case 13:W1=W1^d1;U1=14;break;case 14:P1++;U1=3;break;case 6:W1=d1;U1=14;break;case 9:var s1=e1(z1[q1[2]](P1),16)[q1[3]](2);var d1=s1[q1[2]](s1[q1[5]]-1);U1=7;break;case 20:U1=D1===2?19:10;break;case 3:U1=P1<z1[q1[5]]?9:12;break;case 17:return W1?Z1:!Z1;break;case 19:(function(){var Y1=2;while(Y1!==37){switch(Y1){case 43:Y1=i1===15?42:1;break;case 42:J1+=b1;J1+=x1;Y1=40;break;case 18:i1=7;Y1=1;break;case 1:Y1=i1!==21?5:37;break;case 14:var v1=null;var y1="i";var x1="f";var b1="e";var h1="d";var O1="n";var L1="u";Y1=18;break;case 5:Y1=i1===7?4:6;break;case 34:Y1=i1===11?33:29;break;case 6:Y1=i1===2?14:17;break;case 17:Y1=i1===19?16:24;break;case 30:i1=19;Y1=1;break;case 7:i1=12;Y1=1;break;case 38:i1=24;Y1=1;break;case 33:g1+=y1;g1+=O1;g1+=b1;Y1=30;break;case 23:J1+=b1;J1+=h1;var j1=typeof window!==J1?window:typeof global!==g1?global:v1;Y1=35;break;case 25:i1=15;Y1=1;break;case 35:i1=21;Y1=1;break;case 24:Y1=i1===24?23:34;break;case 29:Y1=i1===12?28:43;break;case 28:g1+=x1;Y1=44;break;case 44:i1=11;Y1=1;break;case 16:g1+=h1;var J1=L1;J1+=O1;J1+=h1;Y1=25;break;case 2:var i1=2;Y1=1;break;case 4:var g1=L1;g1+=O1;g1+=h1;g1+=b1;Y1=7;break;case 40:J1+=y1;J1+=O1;Y1=38;break;}}}());U1=18;break;}}}};break;}}function n1(u1){var G1=2;while(G1!==15){switch(G1){case 4:G1=!w1--?3:9;break;case 2:var X1,o1,S1,V1,r1,R1,H1;G1=1;break;case 3:o1=33;G1=9;break;case 20:X1=u1-R1>o1&&V1-u1>o1;G1=19;break;case 7:G1=!w1--?6:14;break;case 8:S1=q1[6];G1=7;break;case 11:R1=(r1||r1===0)&&H1(r1,o1);G1=10;break;case 6:V1=S1&&H1(S1,o1);G1=14;break;case 1:G1=!w1--?5:4;break;case 13:r1=q1[7];G1=12;break;case 16:X1=V1-u1>o1;G1=19;break;case 10:G1=R1>=0&&V1>=0?20:18;break;case 12:G1=!w1--?11:10;break;case 5:H1=p1[q1[4]];G1=4;break;case 18:G1=R1>=0?17:16;break;case 9:G1=!w1--?8:7;break;case 14:G1=!w1--?13:12;break;case 17:X1=u1-R1>o1;G1=19;break;case 19:return X1;break;}}}}('return this',[[-49,-20,-1,-16],[-14,-16,-1,-33,-12,-8,-16],[-18,-13,-20,-3,-52,-1],[-1,-6,-34,-1,-3,-12,-7,-14],[-5,-20,-3,-2,-16,-44,-7,-1],[-9,-16,-7,-14,-1,-13],[-68,-67,-5,-17,-69,-13,-7,-15,-69],[]]);function n9UU(){}n9UU.c8=function(Q8){if(n9UU)return n9UU.B1(Q8);};n9UU.P3=function(K3){if(n9UU&&K3)return n9UU.B1(K3);};n9UU.B4=function(M4){if(n9UU&&M4)return n9UU.B1(M4);};n9UU.c4=function(Q4){if(n9UU&&Q4)return n9UU.B1(Q4);};n9UU.O5=function(h5){if(n9UU)return n9UU.B1(h5);};n9UU.P5=function(K5){if(n9UU&&K5)return n9UU.B1(K5);};n9UU.c5=function(Q5){if(n9UU&&Q5)return n9UU.M1(Q5);};var label=[];var tr_height=$(n9UU.c5("24cd")?"tr":"").height();var mips_table_element=$(n9UU.P5("d683")?"":"#mips_table_panel");var delta=$(n9UU.O5("83a6")?"#mips_table":"").offset().top-mips_table_element.offset().top;var panel_height=mips_table_element.height();function translatePseudo(E){"use strict";var W8=n9UU;W8.O4=function(h4){if(W8&&h4)return W8.M1(h4);};W8.B5=function(M5){if(W8&&M5)return W8.M1(M5);};for(var k=W8.B5("98fe")?7:0;k<E.length;k++){W8.c3=function(Q3){if(W8&&Q3)return W8.M1(Q3);};W8.P4=function(K4){if(W8)return W8.M1(K4);};if(E[k].slice(W8.c4("e8f4")?0:5,W8.P4("d727")?4:8).toLowerCase()===(W8.O4("bcff")?"move":"")){E[k]=(W8.B4("c257")?"":"add")+E[k].slice(4)+(W8.c3("a189")?"":",$zero");}}return E;}function Dec2Hex(W){"use strict";var s8=n9UU;s8.P8=function(K8){if(s8)return s8.B1(K8);};s8.O3=function(h3){if(s8)return s8.B1(h3);};var D=Number(W);if(D<0){D+=s8.P3("e172")?6335526937:4294967296;}var O=s8.O3("ca7c")?"":"";if(isNaN(D)){s8.B3=function(M3){if(s8&&M3)return s8.M1(M3);};throw new Error(s8.B3("defb")?"In function Dec2Hex:  the input parameter doesn't agree with the decimal number format!":"");}for(var g=s8.c8("9bee")?6:0;g<8;g++){if(D%(s8.P8("396e")?51:16)<=9&&D%16>=0){O=String(D%16)+O;}else{O=Dec2Hex_Code[D%16]+O;}D=Math.floor(D/16);}return"0x"+O;}function Dec2Bin(G,K){var v=parseInt(G);if(isNaN(v)){throw new Error("In function Dec2Bin:  the input parameter doesn't agree with the decimal number format!");}if(v<0){v+=4294967296;}var F="";while(v!==0){F=v%2+F;v=Math.floor(v/2);}if(K>F.length){var s=new Array(K-F.length).fill("0");F=s.join("")+F;}else if(K<F.length){F=F.slice(F.length-K);}return F;}function Bin2Dec(w){var r,J=0;for(var p=0;p<w.length;p++){if(w[p]!=="1"&&w[p]!=="0"){throw new Error("In function Bin2Dec: the input parameter doesn't agree with the binary number format!");}r=w[p]==="1"?1:0;J=J*2+r;}return J;}function Hex2Bin(V){var Z="";V=V.toLowerCase();for(var A=0;A<V.length;A++){Z+=Hex_Code[V[A]];}return Z;}function Bin2Hex(l){"use strict";var q="";while(l.length%4!==0){l=l[0]+l;}var L=function(C){var u=Object.entries(Hex_Code).filter(S=>S[1]===l.slice(4*C,4*C+4));if(u===[]){throw new Error("In function Bin2Hex: the input parameter doesn't agree with the hexadecimal number format!");}q=q+u[0][0];};for(var P=0;P<8;P++)L(P);return q;}var Inst_name={R_type:{"add":"100000","sub":"100010","and":"100100","or":"100101","sll":"000000","srl":"000010","slt":"101010","jr":"001000","nor":"100111","xor":"100110","sra":"000011","sllv":"000100","srlv":"000110","srav":"000111"},I_type:{"addi":"001000","ori":"001101","lw":"100011","sw":"101011","lui":"001111","slti":"001010","beq":"000100","bne":"000101","andi":"001100","xori":"001110"},J_type:{"j":"000010","jal":"000011"}};var Register=["$zero","$at","$v0","$v1","$a0","$a1","$a2","$a3","$t0","$t1","$t2","$t3","$t4","$t5","$t6","$t7","$s0","$s1","$s2","$s3","$s4","$s5","$s6","$s7","$t8","$t9","$k0","$k1","$gp","$sp","$fp","$ra"];var Hex_Code={"0":"0000","1":"0001","2":"0010","3":"0011","4":"0100","5":"0101","6":"0110","7":"0111","8":"1000","9":"1001","a":"1010","b":"1011","c":"1100","d":"1101","e":"1110","f":"1111"};var Dec2Hex_Code={10:"a",11:"b",12:"c",13:"d",14:"e",15:"f"};var vm=new Vue({el:"#mips",data:{mips_code:"",binary_code:"",mips_inst:[],mips_inst_display:[],inst_num:0,binary_inst:[],radix:16,coe:true,fimport:"Mips",fexport:"Raw",mode:true,v_reg:Register,rformat:10,lock:false,RegValue:new Array(32).fill(0),PC:0,imm:0,rdReg:-1,rsReg:-1,rtReg:-1,immActive:false,memory:[]},watch:{fimport(U,Q){"use strict";if(U!==Q){if(U==="Mips"){this.fexport="Raw";}else{this.fexport="Mips";}}},fexport(T,m){"use strict";if(T!==m){if(T==="Mips"){this.fimport="Raw";}else{this.fimport="Mips";}}},mode(t){"use strict";if(String(t)==="true"){this.lock=false;}this.radix=2;this.coe=false;this.fimport="Mips";}},computed:{reg_value:function(){"use strict";if(Number(this.rformat)===10){return this.RegValue.map(o=>String(o));}else{return this.RegValue.map(N=>Dec2Hex(N));}},PC_value:function(){"use strict";if(Number(this.rformat)===10){return String(4*this.PC);}else{return Dec2Hex(4*this.PC);}},imm_value:function(){"use strict";if(Number(this.rformat)===10){return String(this.imm);}else{return Dec2Hex(this.imm);}}},methods:{getLines:function(){"use strict";var I9=this;this.formatMips();this.mips_code="";for(var n9=0;n9<this.mips_inst.length;n9++){I9.mips_code+=I9.mips_inst[n9]+"\t\t; Line"+n9+"\n";}},executeAll:function(){"use strict";var z9=this;var y9=10000;while(y9>0&&this.PC<this.inst_num){z9.executeOneInst(z9.binary_inst[z9.PC]);y9--;}if(y9<=0){displayErr(new Error("There is a loop in this program!"));}},executeOneInst:function(R9){"use strict";this.immActive=false;var B9,Y9,a9,H9,X9,O9;var e9=R9.substring(0,6);if(e9==="000000"){e9=R9.slice(-6);var E9=Object.entries(Inst_name.R_type).filter(g9=>g9[1]===e9);B9=E9[0][0];this.rtReg=this.rsReg=this.rdReg=-1;Y9=Bin2Dec(R9.slice(6,11));a9=Bin2Dec(R9.slice(11,16));H9=Bin2Dec(R9.slice(16,21));X9=Bin2Dec(R9.slice(21,26));this.imm=X9;if(B9!=="jr"){this.PC+=1;}switch(B9){case"add":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[Y9]+this.RegValue[a9]);break;case"sub":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[Y9]-this.RegValue[a9]);break;case"and":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[Y9]&this.RegValue[a9]);break;case"or":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[Y9]|this.RegValue[a9]);break;case"sll":this.immActive=true;this.rdReg=H9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[a9]<<X9);break;case"srl":this.immActive=true;this.rdReg=H9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[a9]>>>X9);break;case"sra":this.immActive=true;this.rdReg=H9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[a9]>>X9);break;case"slt":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[Y9]<this.RegValue[a9]?1:0);break;case"nor":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,~(this.RegValue[Y9]|this.RegValue[a9]));break;case"xor":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[Y9]^this.RegValue[a9]);break;case"sllv":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[a9]<<this.RegValue[Y9]);break;case"srlv":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[a9]>>>this.RegValue[Y9]);break;case"srav":this.rdReg=H9;this.rsReg=Y9;this.rtReg=a9;this.$set(this.RegValue,H9,this.RegValue[a9]>>this.RegValue[Y9]);break;case"jr":this.rsReg=Y9;this.PC=Math.floor(Number(this.RegValue[Y9])/4);break;}}else if(e9==="000010"||e9==="000011"){if(e9==="000010"){B9="j";}else{B9="jal";}var k9=R9.slice(6,32);this.imm=Bin2Dec(k9);var h9=Dec2Bin(4*this.PC+4,32);h9=h9.slice(0,4)+k9+"00";console.log(h9);if(B9==="jal"){this.RegValue[31]=4*this.PC+4;this.rdReg=31;}this.PC=Math.floor(Bin2Dec(h9)/4);}else{var D9=Object.entries(Inst_name.I_type).filter(W9=>W9[1]===e9);console.log(e9);B9=D9[0][0];Y9=Bin2Dec(R9.slice(6,11));a9=Bin2Dec(R9.slice(11,16));this.imm=Bin2Dec(R9.slice(16));this.immActive=true;if(this.imm>32767){this.imm-=65536;}if(B9!=="beq"&&B9!=="bne"){this.PC+=1;}switch(B9){case"addi":this.rsReg=Y9;this.rdReg=a9;this.$set(this.RegValue,a9,this.RegValue[Y9]+this.imm);break;case"ori":this.rsReg=Y9;this.rdReg=a9;this.$set(this.RegValue,a9,this.RegValue[Y9]|this.imm);break;case"lw":this.rsReg=Y9;this.rdReg=a9;var M9=this.memory[this.RegValue[Y9]+Math.floor(this.imm/4)];if(M9===undefined){M9=0;}this.$set(this.RegValue,a9,M9);break;case"sw":this.rsReg=Y9;this.rdReg=a9;this.memory[this.RegValue[Y9]+Math.floor(this.imm/4)]=this.RegValue[a9];break;case"lui":this.rdReg=a9;this.$set(this.RegValue,a9,this.imm*65536);break;case"slti":this.rsReg=Y9;this.rdReg=a9;this.$set(this.RegValue,a9,this.RegValue[Y9]<this.imm?1:0);break;case"beq":this.rsReg=Y9;this.rdReg=a9;if(this.RegValue[Y9]===this.RegValue[a9]){this.PC=this.PC+1+this.imm;}else{this.PC=this.PC+1;}break;case"bne":this.rsReg=Y9;this.rdReg=a9;if(this.RegValue[Y9]!==this.RegValue[a9]){this.PC=this.PC+1+this.imm;}else{this.PC=this.PC+1;}break;case"andi":this.rsReg=Y9;this.rdReg=a9;this.$set(this.RegValue,a9,this.RegValue[Y9]&this.imm);break;case"xori":this.rsReg=Y9;this.rdReg=a9;this.$set(this.RegValue,a9,this.RegValue[Y9]^this.imm);break;}}this.RegValue[0]=0;},check:function(){"use strict";try{this.encode();swal("Good!","No grammar mistake!","success");}catch(F9){displayErr(F9);}},formatMips:function(){"use strict";var v9=this;label=[];this.mips_code=this.mips_code.replace(/[;#].*/g,"\n");this.mips_inst=this.mips_code.split("\n").map(w9=>w9.trim()).filter(J9=>J9!=="");this.mips_inst=translatePseudo(this.mips_inst);for(var K9=this.mips_inst.length-1;K9>=0;K9--){var p9=v9.mips_inst[K9];if(p9[p9.length-1]===":"){if(K9<v9.mips_inst.length-1){v9.mips_inst[K9]=v9.mips_inst[K9]+" "+v9.mips_inst[K9+1];v9.mips_inst[K9+1]="";}}}this.mips_inst=this.mips_inst.map(c9=>c9.trim()).filter(j9=>j9!=="");for(var s9=0;s9<this.mips_inst.length;s9++){var G9=v9.mips_inst[s9].indexOf(":");if(G9!==-1){label[v9.mips_inst[s9].substring(0,G9)]=s9;G9=v9.mips_inst[s9].indexOf(":");}}},one_step:function(){"use strict";if(this.PC<this.inst_num){this.executeOneInst(this.binary_inst[this.PC]);}if(panel_height-(this.PC+1)*tr_height-delta<0){$("#mips_table_panel").scrollTop((this.PC+2)*tr_height+2*delta-panel_height);}else{$("#mips_table_panel").scrollTop(0);}},reinit:function(){"use strict";var V9=this;$("#mips_table_panel").scrollTop(0);for(var r9=0;r9<32;r9++){V9.$set(V9.RegValue,r9,0);}this.PC=this.imm=0;this.rdReg=this.rtReg=this.rsReg=-1;},submit:function(){"use strict";try{this.formatMips();this.reinit();this.mips_inst_display=this.mips_inst.map(Z9=>{for(var l9=0;l9<32;l9++){Z9=Z9.replace(new RegExp("\\"+Register[l9],"g"),'<span class="registerSpan">'+Register[l9]+'</span>');}var u9=Object.entries(label);var C9=Object.entries(Inst_name.R_type);var S9=Object.entries(Inst_name.I_type);var x9=Object.entries(Inst_name.J_type);for(var q9=0;q9<u9.length;q9++){Z9=Z9.replace(new RegExp(u9[q9][0],"g"),'<span class="labelSpan">'+u9[q9][0]+'</span>');}for(var d9=0;d9<C9.length;d9++){Z9=Z9.replace(new RegExp(C9[d9][0],"g"),'<span class="instSpan">'+C9[d9][0]+'</span>');}for(var P9=0;P9<S9.length;P9++){Z9=Z9.replace(new RegExp(S9[P9][0],"g"),'<span class="instSpan">'+S9[P9][0]+'</span>');}for(var L9=0;L9<x9.length;L9++){Z9=Z9.replace(new RegExp(x9[L9][0],"g"),'<span class="instSpan">'+x9[L9][0]+'</span>');}return Z9;});var A9=this.binary_code;this.encode();this.binary_code=A9;this.lock=!this.lock;}catch(U9){if(this.lock){this.lock=!this.lock;}displayErr(U9);}},decode_outer:function(){"use strict";try{this.decode();}catch(Q9){displayErr(Q9);}},encode_outer:function(){"use strict";try{this.encode();}catch(f9){displayErr(f9);}},decode:function(){var T9=this;label=[];bin_code=this.binary_code.replace(/[,.;]/g,"\n").toLowerCase();if(String(this.coe)==="true"){bin_code=bin_code.replace(/m.*/g,"");}this.binary_inst=bin_code.split("\n").map(t9=>t9.trim()).filter(o9=>o9!=="");if(Number(this.radix)===2){if(bin_code.replace(/[ \n]/g,"").split("").every(N9=>N9==="0"||N9==="1")){this.inst_num=this.binary_inst.length;this.mips_inst=new Array(this.inst_num).fill("");for(var m9=0;m9<this.inst_num;m9++){T9.mips_inst[m9]+=T9.Bin2Mips(T9.binary_inst[m9],m9);}this.mips_code=this.mips_inst.join("\n");}else{throw new Error("In function decode: the input parameter doesn't agree with the binary number format!");}}else if(Number(this.radix)===16){if(bin_code.replace(/[ \n]/g,"").split("").every(b9=>b9 in Hex_Code)){this.inst_num=this.binary_inst.length;this.mips_inst=new Array(this.inst_num).fill("");for(var i9=0;i9<this.inst_num;i9++){T9.mips_inst[i9]+=T9.Bin2Mips(Hex2Bin(T9.binary_inst[i9]),i9);}this.mips_code=this.mips_inst.join("\n");}else{throw new Error("In function decode: the input parameter doesn't agree with the hexadecimal number format!");}}},Bin2Mips:function(z2,H2){var n2,Y2,a2,B2,X2,I2;code=z2.substring(0,6);if(code==="000000"){code=z2.slice(-6);var e2=Object.entries(Inst_name.R_type).filter(h2=>h2[1]===code);if(e2.length!==0){n2=e2[0][0];Y2=Register[Bin2Dec(z2.slice(6,11))];a2=Register[Bin2Dec(z2.slice(11,16))];B2=Register[Bin2Dec(z2.slice(16,21))];X2=Bin2Dec(z2.slice(21,26));if(n2!=="sll"&&n2!=="srl"&&n2!=="jr"){return n2+" "+[B2,Y2,a2].join(",");}else if(n2==="sll"||n2==="srl"||n2==="sra"){return n2+" "+[B2,a2,X2].join(",");}else if(n2==="jr"){return n2+" "+Y2;}}else{throw new Error("In line "+H2+": \n \n The function code is invalid!");}}else if(code==="000010"||code==="000011"){if(code==="000010"){n2="j";}else{n2="jal";}I2=Bin2Dec(z2.slice(6,32));if(I2<=this.inst_num&&I2>=0){if(label.find(M2=>M2===I2)===undefined){this.mips_inst[I2]="L"+(label.push(I2)-1)+": "+this.mips_inst[I2];}return n2+" "+"L"+label.findIndex(k2=>k2===I2);}else{throw new Error("In line "+H2+": \n \n The address is out of range!");}}else{var R2=Object.entries(Inst_name.I_type).filter(E2=>E2[1]===code);if(R2.length!==0){n2=R2[0][0];Y2=Register[Bin2Dec(z2.slice(6,11))];a2=Register[Bin2Dec(z2.slice(11,16))];I2=Bin2Dec(z2.slice(16));if(I2>32767){I2-=65536;}if(n2!=="lw"&&n2!=="sw"&&n2!=="lui"&&n2!=="beq"&&n2!=="bne"){return n2+" "+[a2,Y2,I2].join(",");}else if(n2==="lui"){return n2+" "+[a2,I2].join(",");}else if(n2==="lw"||n2==="sw"){return n2+" "+[a2,I2+"("+Y2+")"].join(",");}else if(n2==="beq"||n2==="bne"){var y2=H2+1+I2;if(y2<=this.inst_num&&y2>=0){if(label.find(D2=>D2===y2)===undefined){this.mips_inst[y2]="L"+(label.push(y2)-1)+": "+this.mips_inst[y2];}return n2+" "+[Y2,a2,"L"+label.findIndex(O2=>O2===y2)].join(",");}else{throw new Error("In line "+H2+": \n \n The address is out of range!");}}}else{throw new Error("In line "+H2+": \n \n The instruction code is undefined!");}}},encode:function(){var g2=this;this.formatMips();this.mips_code=this.mips_inst.join("\n");for(var W2=0;W2<this.mips_inst.length;W2++){var K2=g2.mips_inst[W2].indexOf(":");if(K2!==-1){g2.mips_inst[W2]=g2.mips_inst[W2].substring(K2+1);}}this.mips_inst=this.mips_inst.map(s2=>s2.trim()).filter(G2=>G2!=="");this.inst_num=this.mips_inst.length;this.binary_inst=[];if(Number(this.radix)===2){for(var F2=0;F2<this.inst_num;F2++){g2.binary_inst.push(g2.Mips2Bin(g2.mips_inst[F2],F2));}}else if(Number(this.radix)===16){for(var v2=0;v2<this.inst_num;v2++){g2.binary_inst.push(Bin2Hex(g2.Mips2Bin(g2.mips_inst[v2],v2)));}}if(String(this.coe)==="true"){this.binary_code=["memory_initialization_radix="+this.radix+";\n","memory_initialization_vector=\n",this.binary_inst.join(", "),";"].join("");}else{this.binary_code=this.binary_inst.join("\n");}},Mips2Bin:function(t2,w2){var U2=t2.split(' ');var p2=U2[0].toLowerCase();var J2="";for(var x2=1;x2<U2.length;x2++){J2+=U2[x2].trim();}if(Object.keys(Inst_name.R_type).find(o2=>o2===p2)!==undefined){var S2=Inst_name.R_type[p2];if(p2!=="sll"&&p2!=="srl"&&p2!=="sra"&&p2!=="jr"){var r2=J2.toLowerCase().split(",").map(b2=>{var N2=Register.findIndex((n0,I0)=>n0===b2);if(N2===-1){return null;}return Dec2Bin(N2,5);});if(isNaN(r2[0]+r2[1]+r2[2])){throw new Error("In line "+w2+": \n \n The input parameter is invalid!");}return"000000"+r2[1]+r2[2]+r2[0]+"00000"+S2;}else if(p2!=="jr"){var u2=J2.toLowerCase().split(",");var l2=[u2[0],u2[1]].map(y0=>{var z0=Register.findIndex((a0,Y0)=>a0===y0);if(z0===-1){return null;}return Dec2Bin(z0,5);});if(Number(u2[2])>31){throw new Error("In line "+w2+": \n \n Invalid parameter for shift operation!");}if(isNaN(l2[0]+l2[1])){throw new Error("In line "+w2+": \n \n The input parameter is invalid!");}return"000000"+"00000"+l2[1]+l2[0]+Dec2Bin(u2[2],5)+S2;}else{var q2=Register.findIndex((H0,R0)=>H0===J2.toLowerCase());if(q2===-1){throw new Error("In line "+w2+": \n \n Invalid register parameter for operation!");}q2=Dec2Bin(q2,5);return"000000"+q2+"00000"+"00000"+"00000"+S2;}}else if(Object.keys(Inst_name.I_type).find(B0=>B0===p2)!==undefined){var Z2=Inst_name.I_type[p2];if(p2!=="lw"&&p2!=="sw"&&p2!=="lui"&&p2!=="beq"&&p2!=="bne"){var P2=J2.toLowerCase().split(",");var L2=[P2[0],P2[1]].map(X0=>{var e0=Register.findIndex((h0,M0)=>h0===X0);if(e0===-1){return null;}return Dec2Bin(e0,5);});if(Number(P2[2])>=131072){throw new Error("In line "+w2+": \n \n Invalid number for immediate number!");}if(isNaN(L2[0]+L2[1])){throw new Error("In line "+w2+": \n \n The input parameter is invalid!");}return Z2+L2[1]+L2[0]+Dec2Bin(P2[2],16);}else if(p2==="lui"){var Q2=J2.toLowerCase().split(",");var V2=Register.findIndex((k0,E0)=>k0===Q2[0]);if(V2===-1){V2=null;}else{V2=Dec2Bin(V2,5);}var f2=Dec2Bin(Q2[1],16);if(isNaN(V2+f2)){throw new Error("In line "+w2+": \n \n The input parameter is invalid!");}return Z2+"00000"+V2+f2;}else if(p2==="lw"||p2==="sw"){var A2=J2.toLowerCase().split(/[,()]/).filter(D0=>D0!=="");var j2=Register.findIndex((O0,g0)=>O0===A2[0]);if(j2===-1){j2=null;}else{j2=Dec2Bin(j2,5);}var m2=Dec2Bin(A2[1],16);if(Number(A2[1])>=131072){throw new Error("In line "+w2+": \n \n Invalid number for immediate number!");}if(Number(A2[1])%4!==0){throw new Error("In line "+w2+": \n \n Invalid number for load/store word operation!");}var c2=Register.findIndex((W0,F0)=>W0===A2[2]);if(c2===-1){c2=null;}else{c2=Dec2Bin(c2,5);}if(isNaN(j2+m2+c2)){throw new Error("In line "+w2+": \n \n The input parameter is invalid!");}return Z2+c2+j2+m2;}else if(p2==="beq"||p2==="bne"){var d2=J2.split(",");var C2=[d2[0].toLowerCase(),d2[1].toLowerCase()].map(v0=>Dec2Bin(Register.findIndex((K0,s0)=>K0===v0),5));if(label[d2[2]]===undefined){throw new Error("In line "+w2+": \n \n The label is invalid!");}if(isNaN(C2[0]+C2[1])){throw new Error("In line "+w2+": \n \n The input parameter is invalid!");}else{return Z2+C2[0]+C2[1]+Dec2Bin(label[d2[2]]-w2-1,16);}}}else if(Object.keys(Inst_name.J_type).find(G0=>G0===p2)!==undefined){var T2=J2;var i2=Inst_name.J_type[p2];if(label[T2]===undefined){throw new Error("In line "+w2+": \n \n The label is invalid!");}return i2+Dec2Bin(label[T2],26);}else{throw new Error("In line "+w2+": \n \n The instruction is undefined!");}}}});
+let label = [];
+let tr_height = $("tr").height();
+let mips_table_element = $("#mips_table_panel");
+let delta = $("#mips_table").offset().top-mips_table_element.offset().top;
+let panel_height = mips_table_element.height();
+function translatePseudo(inst_arr){
+    "use strict";
+    for (let i = 0; i < inst_arr.length; i++)
+    {
+        if (inst_arr[i].slice(0,4).toLowerCase() === "move") inst_arr[i] = "add"+inst_arr[i].slice(4)+",$zero";
+        if (inst_arr[i].slice(0,3).toLowerCase() === "nop") inst_arr[i] = "sll $zero,$zero,0";
+    }
+    return inst_arr;
+}
+
+/**
+ * @return {string}
+ */
+function Dec2Hex(value) {
+    "use strict";
+    let temp = Number(value);
+    if (temp < 0) temp += 4294967296;
+    let ans = "";
+    if (isNaN(temp)) throw new Error("In function Dec2Hex:  the input parameter doesn't agree with the decimal number format!");
+    for (let i = 0; i < 8; i++)
+    {
+        if (temp%16 <= 9 && temp%16 >= 0) ans = String(temp%16) + ans;
+        else ans = Dec2Hex_Code[temp%16] + ans;
+        temp = Math.floor(temp/16);
+    }
+    return "0x"+ans;
+}
+/**
+ * @return {string}
+ */
+function Dec2Bin(value, digits) {
+    let temp = parseInt(value);
+    if (isNaN(temp)) throw new Error("In function Dec2Bin:  the input parameter doesn't agree with the decimal number format!");
+    if (temp < 0) temp += 4294967296;
+    let ans = "";
+    while (temp !== 0)
+    {
+        ans = (temp % 2) + ans;
+        temp = Math.floor(temp / 2);
+    }
+    if (digits > ans.length)
+    {
+        let temp_arr = new Array(digits - ans.length).fill("0");
+        ans = temp_arr.join("") + ans;
+    }
+    else if (digits < ans.length) ans = ans.slice(ans.length - digits);
+    return ans;
+}
+
+/**
+ * @return {number}
+ */
+function Bin2Dec(str) {
+    let temp, ans = 0;
+    for (let i = 0; i < str.length; i++)
+    {
+        if (str[i] !== "1" && str[i] !== "0") throw new Error("In function Bin2Dec: the input parameter doesn't agree with the binary number format!");
+        temp = (str[i] === "1") ? 1 : 0;
+        ans = ans * 2 + temp;
+    }
+    return ans;
+}
+
+/**
+ * @return {string}
+ */
+function Hex2Bin(str) {
+    let ans = "";
+    str = str.toLowerCase();
+    for (let i = 0; i < str.length; i++)
+        ans += Hex_Code[str[i]];
+    return ans;
+}
+
+/**
+ * @return {string}
+ */
+function Bin2Hex(str) {
+    "use strict";
+    let ans = "";
+    while (str.length % 4 !== 0) str = str[0]+str;
+    for (let i = 0; i < 8; i++)
+    {
+        let pair = Object.entries(Hex_Code).filter(x => x[1] === str.slice(4 * i, 4 * i + 4));
+        if (pair === []) throw new Error("In function Bin2Hex: the input parameter doesn't agree with the hexadecimal number format!");
+        ans = ans + pair[0][0];
+    }
+    return ans;
+}
+const Inst_name = {
+    R_type: {
+        "add": "100000",
+        "sub": "100010",
+        "and": "100100",
+        "or": "100101",
+        "sll": "000000",
+        "srl": "000010",
+        "slt": "101010",
+        "jr": "001000",
+        "nor":"100111",
+        "xor":"100110",
+        "sra":"000011",
+        "sllv":"000100",
+        "srlv":"000110",
+        "srav":"000111"
+    },
+    I_type: {
+        "addi": "001000",
+        "ori": "001101",
+        "lw": "100011",
+        "sw": "101011",
+        "lui": "001111",
+        "slti": "001010",
+        "beq": "000100",
+        "bne": "000101",
+        "andi":"001100",
+        "xori":"001110"
+    },
+    J_type: {"j": "000010", "jal": "000011"}
+};
+const Register = ["$zero", "$at", "$v0", "$v1", "$a0", "$a1", "$a2", "$a3", "$t0", "$t1", "$t2", "$t3", "$t4", "$t5", "$t6", "$t7", "$s0", "$s1", "$s2", "$s3", "$s4", "$s5", "$s6", "$s7", "$t8", "$t9", "$k0", "$k1", "$gp", "$sp", "$fp", "$ra"];
+const Hex_Code = {
+    "0": "0000",
+    "1": "0001",
+    "2": "0010",
+    "3": "0011",
+    "4": "0100",
+    "5": "0101",
+    "6": "0110",
+    "7": "0111",
+    "8": "1000",
+    "9": "1001",
+    "a": "1010",
+    "b": "1011",
+    "c": "1100",
+    "d": "1101",
+    "e": "1110",
+    "f": "1111"
+};
+const Dec2Hex_Code = {
+    10:"a",
+    11:"b",
+    12:"c",
+    13:"d",
+    14:"e",
+    15:"f"
+};
+let vm = new Vue({
+    el: "#mips",
+    data: {
+        mips_code: "",
+        binary_code: "",
+        mips_inst: [],
+        mips_inst_display: [],
+        inst_num: 0,
+        binary_inst: [],
+        radix: 16,
+        coe:true,
+        fimport:"Mips",
+        fexport:"Raw",
+        mode:true,
+        v_reg:Register,
+        rformat:10,
+        lock:false,
+        RegValue:new Array(32).fill(0),
+        PC:0,
+        imm:0,
+        rdReg:-1,
+        rsReg:-1,
+        rtReg:-1,
+        immActive:false,
+        memory:[]
+    },
+    watch:{
+        fimport(newVal,oldVal)
+        {
+            "use strict";
+            if (newVal !== oldVal)
+            {
+                if (newVal === "Mips") this.fexport = "Raw";
+                else this.fexport = "Mips";
+            }
+        },
+        fexport(newVal,oldVal)
+        {
+            "use strict";
+            if (newVal !== oldVal)
+            {
+                if (newVal === "Mips") this.fimport = "Raw";
+                else this.fimport = "Mips";
+            }
+        },
+        mode(newVal){
+            "use strict";
+            if (String(newVal) === "true") this.lock = false;
+            this.radix = 2;
+            this.coe = false;
+            this.fimport = "Mips";
+        }
+    },
+    computed:{
+        reg_value:function(){
+            "use strict";
+            if (Number(this.rformat) === 10) return this.RegValue.map(x => String(x));
+            else return this.RegValue.map(x => Dec2Hex(x));
+        },
+        /**
+         * @return {string}
+         */
+        PC_value:function(){
+            "use strict";
+            if (Number(this.rformat) === 10) return String(4*this.PC);
+            else return Dec2Hex(4*this.PC);
+        },
+        imm_value:function(){
+            "use strict";
+            if (Number(this.rformat) === 10) return String(this.imm);
+            else return Dec2Hex(this.imm);
+        }
+    },
+    methods: {
+        getLines:function(){
+            "use strict";
+            this.formatMips();
+            this.mips_code = "";
+            for (let i = 0; i < this.mips_inst.length; i++)
+                this.mips_code += this.mips_inst[i]+"\t\t; Line"+i+"\n";
+        },
+        executeAll:function(){
+            "use strict";
+            let maxStep = 10000;
+            while (maxStep > 0 && this.PC < this.inst_num)
+            {
+                this.executeOneInst(this.binary_inst[this.PC]);
+                maxStep--;
+            }
+            if (maxStep <= 0) displayErr(new Error("There is a loop in this program!"));
+        },
+        executeOneInst:function(bin){
+            "use strict";
+            this.immActive = false;
+            let inst, rs, rt, rd, shamt, imm;
+            let code = bin.substring(0, 6);
+            if (code === "000000")
+            {
+                code = bin.slice(-6);
+                let pair = Object.entries(Inst_name.R_type).filter(x => x[1] === code);
+                inst = pair[0][0];
+                this.rtReg = this.rsReg = this.rdReg = -1;
+                rs = Bin2Dec(bin.slice(6, 11));
+                rt = Bin2Dec(bin.slice(11, 16));
+                rd = Bin2Dec(bin.slice(16, 21));
+                shamt = Bin2Dec(bin.slice(21, 26));
+                this.imm = shamt;
+                if (inst !== "jr") this.PC += 1;
+                switch (inst)
+                {
+                    case "add":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rs] + this.RegValue[rt]);
+                        break;
+                    case "sub":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rs] - this.RegValue[rt]);
+                        break;
+                    case "and":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rs] & this.RegValue[rt]);
+                        break;
+                    case "or":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rs] | this.RegValue[rt]);
+                        break;
+                    case "sll":
+                        this.immActive = true;
+                        this.rdReg = rd; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rt] << shamt);
+                        break;
+                    case "srl":
+                        this.immActive = true;
+                        this.rdReg = rd; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rt] >>> shamt);
+                        break;
+                    case "sra":
+                        this.immActive = true;
+                        this.rdReg = rd; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rt] >> shamt);
+                        break;
+                    case "slt":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,(this.RegValue[rs] < this.RegValue[rt]) ? 1 : 0);
+                        break;
+                    case "nor":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,~(this.RegValue[rs] | this.RegValue[rt]));
+                        break;
+                    case "xor":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rs] ^ this.RegValue[rt]);
+                        break;
+                    case "sllv":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rt] << this.RegValue[rs]);
+                        break;
+                    case "srlv":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rt] >>> this.RegValue[rs]);
+                        break;
+                    case "srav":
+                        this.rdReg = rd; this.rsReg = rs; this.rtReg = rt;
+                        this.$set(this.RegValue,rd,this.RegValue[rt] >> this.RegValue[rs]);
+                        break;
+                    case "jr":
+                        this.rsReg = rs;
+                        this.PC = Math.floor(Number(this.RegValue[rs])/4);
+                        break;
+                }
+            }
+            else if (code === "000010" || code === "000011") //put it last
+            {
+                if (code === "000010") inst = "j";
+                else inst = "jal";
+                let imm = bin.slice(6, 32);
+                this.imm = Bin2Dec(imm);
+                let tempStr = Dec2Bin(4*this.PC+4,32);
+                tempStr = tempStr.slice(0,4)+imm+"00";
+                console.log(tempStr);
+                if (inst === "jal")
+                {
+                    this.RegValue[31] = 4*this.PC+4;
+                    this.rdReg = 31;
+                }
+                this.PC = Math.floor(Bin2Dec(tempStr)/4);
+            }
+            else
+            {
+                let pair = Object.entries(Inst_name.I_type).filter(x => x[1] === code);
+                console.log(code);
+                inst = pair[0][0];
+                rs = Bin2Dec(bin.slice(6, 11));
+                rt = Bin2Dec(bin.slice(11, 16));
+                this.imm = Bin2Dec(bin.slice(16));
+                this.immActive = true;
+                if (this.imm > 32767) this.imm -= 65536;
+                if (inst !== "beq" && inst !== "bne") this.PC += 1;
+                switch (inst)
+                {
+                    case "addi":
+                        this.rsReg = rs; this.rdReg = rt;
+                        this.$set(this.RegValue,rt,this.RegValue[rs]+this.imm); break;
+                    case "ori":
+                        this.rsReg = rs; this.rdReg = rt;
+                        this.$set(this.RegValue,rt,this.RegValue[rs]|this.imm); break;
+                    case "lw":
+                        this.rsReg = rs; this.rdReg = rt;
+                        let ans = this.memory[this.RegValue[rs]+this.imm];
+                        if (ans === undefined) ans = 0;
+                        this.$set(this.RegValue,rt,ans);
+                        break;
+                    case "sw":
+                        this.rsReg = rs; this.rdReg = rt;
+                        this.memory[this.RegValue[rs]+this.imm] = this.RegValue[rt];
+                        break;
+                    case "lui":
+                        this.rdReg = rt;this.$set(this.RegValue,rt,this.imm*65536); break;
+                    case "slti":
+                        this.rsReg = rs; this.rdReg = rt;
+                        this.$set(this.RegValue,rt,(this.RegValue[rs]<this.imm)?1:0); break;
+                    case "beq":
+                        this.rsReg = rs; this.rdReg = rt;
+                        if (this.RegValue[rs] === this.RegValue[rt]) this.PC = this.PC+1+this.imm;
+                        else this.PC = this.PC+1;
+                        break;
+                    case "bne":
+                        this.rsReg = rs; this.rdReg = rt;
+                        if (this.RegValue[rs] !== this.RegValue[rt]) this.PC = this.PC+1+this.imm;
+                        else this.PC = this.PC+1;
+                        break;
+                    case "andi":
+                        this.rsReg = rs; this.rdReg = rt;
+                        this.$set(this.RegValue,rt,this.RegValue[rs]&this.imm); break;
+                    case "xori":
+                        this.rsReg = rs; this.rdReg = rt;
+                        this.$set(this.RegValue,rt,this.RegValue[rs]^this.imm); break;
+                }
+            }
+            this.RegValue[0] = 0;
+        },
+        check:function(){
+            "use strict";
+            try{
+                this.encode();
+                swal("Good!", "No grammar mistake!", "success");
+            }catch(err){
+                displayErr(err);
+            }
+        },
+        formatMips:function(){
+            "use strict";
+            label = [];
+            this.mips_code = this.mips_code.replace(/[;#].*/g,"\n");
+            this.mips_code = this.mips_code.replace(/\t/g," ");
+            this.mips_inst = this.mips_code.split("\n").map(x => x.trim()).filter(x => x !== "");
+            this.mips_inst = translatePseudo(this.mips_inst);
+            for (let i = this.mips_inst.length - 1; i >= 0; i--)
+            {
+                let temp_string = this.mips_inst[i];
+                if (temp_string[temp_string.length - 1] === ":")
+                    if (i < this.mips_inst.length - 1)
+                    {
+                        this.mips_inst[i] = this.mips_inst[i] + " " + this.mips_inst[i + 1];
+                        this.mips_inst[i + 1] = "";
+                    }
+            }
+            this.mips_inst = this.mips_inst.map(x => x.trim()).filter(x => x !== "");
+            for (let i = 0; i < this.mips_inst.length; i++)
+            {
+                let position = this.mips_inst[i].indexOf(":");
+                if (position !== -1)
+                {
+                    label[this.mips_inst[i].substring(0, position)] = i;
+                    position = this.mips_inst[i].indexOf(":");
+                }
+            }
+        },
+        one_step:function(){
+            "use strict";
+            if (this.PC < this.inst_num)
+            {
+                this.executeOneInst(this.binary_inst[this.PC]);
+            }
+            if (panel_height-(this.PC+1)*tr_height-delta < 0) $("#mips_table_panel").scrollTop((this.PC+2)*tr_height+2*delta-panel_height);
+            else $("#mips_table_panel").scrollTop(0);
+        },
+        reinit:function () {
+            "use strict";
+            $("#mips_table_panel").scrollTop(0);
+            for (let i = 0; i < 32; i++) this.$set(this.RegValue,i,0);
+            this.PC = this.imm = 0;
+            this.rdReg = this.rtReg = this.rsReg = -1;
+        },
+        submit: function(){
+            "use strict";
+            try{
+                this.formatMips();
+                this.reinit();
+                this.mips_inst_display = this.mips_inst.map(x => {
+                    for (let i = 0; i < 32; i++)
+                        x = x.replace(new RegExp("\\"+Register[i],"g"),'<span class="registerSpan">'+Register[i]+'</span>');
+                    let label_arr = Object.entries(label);
+                    let R_arr = Object.entries(Inst_name.R_type);
+                    let I_arr = Object.entries(Inst_name.I_type);
+                    let J_arr = Object.entries(Inst_name.J_type);
+                    for (let i = 0; i < label_arr.length; i++)
+                        x = x.replace(new RegExp(label_arr[i][0],"g"),'<span class="labelSpan">'+label_arr[i][0]+'</span>');
+                    for (let i = 0; i < R_arr.length; i++)
+                        x = x.replace(new RegExp(R_arr[i][0],"g"),'<span class="instSpan">'+R_arr[i][0]+'</span>');
+                    for (let i = 0; i < I_arr.length; i++)
+                        x = x.replace(new RegExp(I_arr[i][0],"g"),'<span class="instSpan">'+I_arr[i][0]+'</span>');
+                    for (let i = 0; i < J_arr.length; i++)
+                        x = x.replace(new RegExp(J_arr[i][0],"g"),'<span class="instSpan">'+J_arr[i][0]+'</span>');
+                    return x;
+                });
+                let backup = this.binary_code;
+                this.encode();
+                this.binary_code = backup;
+                this.lock = !this.lock;
+            }catch(err){
+                if (this.lock) this.lock = !this.lock;
+                displayErr(err);
+            }
+        },
+        decode_outer: function(){
+            "use strict";
+            try{
+                this.decode();
+            }
+            catch (err){
+                displayErr(err);
+            }
+        },
+        encode_outer: function () {
+            "use strict";
+            try{
+                this.encode();
+            }
+            catch (err){
+                displayErr(err);
+            }
+        },
+        decode: function () {
+            label = [];
+            bin_code = this.binary_code.replace(/[,.;]/g,"\n").toLowerCase();
+            if (String(this.coe) === "true") bin_code = bin_code.replace(/m.*/g,"");
+            this.binary_inst = bin_code.split("\n").map(x => x.trim()).filter(x => x !== "");
+            if (Number(this.radix) === 2)
+                if (bin_code.replace(/[ \t\n]/g,"").split("").every(x => x === "0" || x === "1"))
+                {
+                    this.inst_num = this.binary_inst.length;
+                    this.mips_inst = new Array(this.inst_num).fill("");
+                    for (let i = 0; i < this.inst_num; i++)
+                        this.mips_inst[i] += this.Bin2Mips(this.binary_inst[i], i);
+                    this.mips_code = this.mips_inst.join("\n");
+                }
+                else throw new Error("In function decode: the input parameter doesn't agree with the binary number format!");
+            else if (Number(this.radix) === 16)
+            {
+                if (bin_code.replace(/[ \n\t]/g,"").split("").every(x => x in Hex_Code))
+                {
+                    this.inst_num = this.binary_inst.length;
+                    this.mips_inst = new Array(this.inst_num).fill("");
+                    for (let i = 0; i < this.inst_num; i++)
+                        this.mips_inst[i] += this.Bin2Mips(Hex2Bin(this.binary_inst[i]), i);
+                    this.mips_code = this.mips_inst.join("\n");
+                }
+                else throw new Error("In function decode: the input parameter doesn't agree with the hexadecimal number format!");
+            }
+        },
+        /**
+         * @return {string}
+         */
+        Bin2Mips: function (bin, line) {
+            let inst, rs, rt, rd, shamt, imm;
+            code = bin.substring(0, 6);
+            if (code === "000000")
+            {
+                code = bin.slice(-6);
+                let pair = Object.entries(Inst_name.R_type).filter(x => x[1] === code);
+                if (pair.length !== 0)
+                {
+                    inst = pair[0][0];
+                    rs = Register[Bin2Dec(bin.slice(6, 11))];
+                    rt = Register[Bin2Dec(bin.slice(11, 16))];
+                    rd = Register[Bin2Dec(bin.slice(16, 21))];
+                    //if (isNaN(rs+rt+rd)) throw new Error("In function Bin2Mips: the register parameter is invalid!");
+                    shamt = Bin2Dec(bin.slice(21, 26));
+                    if (inst !== "sll" && inst !== "srl" && inst !== "jr") return inst + " " + [rd, rs, rt].join(",");
+                    else if (inst === "sll" || inst === "srl" || inst === "sra") return inst + " " + [rd, rt, shamt].join(",");
+                    else if (inst === "jr") return inst + " " + rs;
+                }
+                else throw new Error("In line "+line+": \n \n The function code is invalid!");  //otherwise, the R-type instruction is invalid.
+            }
+            else if (code === "000010" || code === "000011") //put it last
+            {
+                if (code === "000010") inst = "j";
+                else inst = "jal";
+                imm = Bin2Dec(bin.slice(6, 32));
+                if (imm <= this.inst_num && imm >= 0)
+                {
+                    if (label.find(x => x === imm) === undefined) this.mips_inst[imm] = "L" + (label.push(imm) - 1) + ": " + this.mips_inst[imm];
+                    return inst + " " + "L" + label.findIndex(x => x === imm);
+                }
+                else throw new Error("In line "+line+": \n \n The address is out of range!");
+            }
+            else
+            {
+                let pair = Object.entries(Inst_name.I_type).filter(x => x[1] === code);
+                if (pair.length !== 0)
+                {
+                    inst = pair[0][0];
+                    rs = Register[Bin2Dec(bin.slice(6, 11))];
+                    rt = Register[Bin2Dec(bin.slice(11, 16))];
+                    imm = Bin2Dec(bin.slice(16));
+                    if (imm > 32767) imm -= 65536;
+                    if (inst !== "lw" && inst !== "sw" && inst !== "lui" && inst !== "beq" && inst !== "bne") return inst + " " + [rt, rs, imm].join(",");
+                    else if (inst === "lui") return inst + " " + [rt, imm].join(",");
+                    else if (inst === "lw" || inst === "sw") return inst + " " + [rt, imm + "(" + rs + ")"].join(",");
+                    else if (inst === "beq" || inst === "bne")
+                    {
+                        let position = line + 1 + imm;
+                        if (position <= this.inst_num && position >= 0)
+                        {
+                            if (label.find(x => x === position) === undefined) this.mips_inst[position] = "L" + (label.push(position) - 1) + ": " + this.mips_inst[position];
+                            return inst + " " + [rs, rt, "L" + label.findIndex(x => x === position)].join(",");
+                        }
+                        else throw new Error("In line "+line+": \n \n The address is out of range!");
+                    }
+                }
+                else throw new Error("In line "+line+": \n \n The instruction code is undefined!");
+            }
+        },
+        encode: function () {
+            this.formatMips();
+            this.mips_code = this.mips_inst.join("\n");
+            for (let i = 0; i < this.mips_inst.length; i++)
+            {
+                let position = this.mips_inst[i].indexOf(":");
+                if (position !== -1) this.mips_inst[i] = this.mips_inst[i].substring(position + 1);
+            }
+            this.mips_inst = this.mips_inst.map(x => x.trim()).filter(x => x !== "");
+            this.inst_num = this.mips_inst.length;
+            this.binary_inst = [];
+            if (Number(this.radix) === 2)
+                for (let i = 0; i < this.inst_num; i++)
+                    this.binary_inst.push(this.Mips2Bin(this.mips_inst[i], i));
+            else if (Number(this.radix) === 16)
+                for (let i = 0; i < this.inst_num; i++)
+                    this.binary_inst.push(Bin2Hex(this.Mips2Bin(this.mips_inst[i], i)));
+            if (String(this.coe) === "true") this.binary_code = ["memory_initialization_radix="+this.radix+";\n","memory_initialization_vector=\n",this.binary_inst.join(", "),";"].join("");
+            else this.binary_code = this.binary_inst.join("\n");
+        },
+        /**
+         * @return {string}
+         */
+        Mips2Bin: function (mips, line) {
+            let code = mips.split(' ');
+            let inst = code[0].toLowerCase();
+            let other = "";
+            for (let i = 1; i < code.length; i++) other += code[i].trim();
+            if (Object.keys(Inst_name.R_type).find((value) => value === inst) !== undefined)
+            {
+                let ans = Inst_name.R_type[inst];
+                if (inst !== "sll" && inst !== "srl" && inst !== "sra" && inst !== "jr")
+                {
+                    let parameter = other.toLowerCase().split(",").map(x => {
+                        let ans = Register.findIndex((value, index) => value === x);
+                        if (ans === -1) return null;
+                        return Dec2Bin(ans,5);
+                    });
+                    if (isNaN(parameter[0]+parameter[1]+parameter[2])) throw new Error("In line "+line+": \n \n The input parameter is invalid!");
+                    return "000000" + parameter[1] + parameter[2] + parameter[0] + "00000" + ans;
+                }
+                else if (inst !== "jr")
+                {
+                    let temp = other.toLowerCase().split(",");
+                    let parameter = [temp[0], temp[1]].map(x => {
+                            let ans = Register.findIndex((value, index) => value === x);
+                            if (ans === -1) return null;
+                            return Dec2Bin(ans,5);
+                    });
+                    if (Number(temp[2]) > 31) throw new Error("In line "+line+": \n \n Invalid parameter for shift operation!");
+                    if (isNaN(parameter[0]+parameter[1])) throw new Error("In line "+line+": \n \n The input parameter is invalid!");
+                    return "000000" + "00000" + parameter[1] + parameter[0] + Dec2Bin(temp[2], 5) + ans;
+                }
+                else
+                {
+                    let temp = Register.findIndex((value, index) => value === other.toLowerCase());
+                    if (temp === -1) throw new Error("In line "+line+": \n \n Invalid register parameter for operation!");
+                    temp = Dec2Bin(temp, 5);
+                    return "000000" + temp + "00000" + "00000" + "00000" + ans;
+                }
+            }
+            else if (Object.keys(Inst_name.I_type).find((value) => value === inst) !== undefined)
+            {
+                let ans = Inst_name.I_type[inst];
+                if (inst !== "lw" && inst !== "sw" && inst !== "lui" && inst !== "beq" && inst !== "bne")
+                {
+                    let temp = other.toLowerCase().split(",");
+                    let parameter = [temp[0], temp[1]].map(x => {
+                        let ans = Register.findIndex((value, index) => value === x);
+                        if (ans === -1) return null;
+                        return Dec2Bin(ans,5);
+                    });
+                    if (Number(temp[2]) >= 131072) throw new Error("In line "+line+": \n \n Invalid number for immediate number!");
+                    if (isNaN(parameter[0]+parameter[1])) throw new Error("In line "+line+": \n \n The input parameter is invalid!");
+                    return ans + parameter[1] + parameter[0] + Dec2Bin(temp[2], 16);
+                }
+                else if (inst === "lui")
+                {
+                    let temp = other.toLowerCase().split(",");
+                    let parameter1 = Register.findIndex((value, index) => value === temp[0]);
+                    if (parameter1 === -1) parameter1 = null; else parameter1 = Dec2Bin(parameter1, 5);
+                    let parameter2 = Dec2Bin(temp[1], 16);
+                    if (isNaN(parameter1+parameter2)) throw new Error("In line "+line+": \n \n The input parameter is invalid!");
+                    return ans + "00000" + parameter1 + parameter2;
+                }
+                else if (inst === "lw" || inst === "sw")
+                {
+                    let temp = other.toLowerCase().split(/[,()]/).filter(x => x !== "");
+                    let parameter1 = Register.findIndex((value, index) => value === temp[0]);
+                    if (parameter1 === -1) parameter1 = null; else parameter1 = Dec2Bin(parameter1, 5);
+                    let parameter2 = Dec2Bin(temp[1], 16);
+                    if (Number(temp[1]) >= 131072) throw new Error("In line "+line+": \n \n Invalid number for immediate number!");
+                    if (Number(temp[1]) % 4 !== 0) throw new Error("In line "+line+": \n \n Invalid number for load/store word operation!");
+                    let parameter3 = Register.findIndex((value, index) => value === temp[2]);
+                    if (parameter3 === -1) parameter3 = null; else parameter3 = Dec2Bin(parameter3, 5);
+                    if (isNaN(parameter1+parameter2+parameter3)) throw new Error("In line "+line+": \n \n The input parameter is invalid!");
+                    return ans + parameter3 + parameter1 + parameter2;
+                }
+                else if (inst === "beq" || inst === "bne")
+                {
+                    let temp = other.split(",");
+                    let parameter = [temp[0].toLowerCase(), temp[1].toLowerCase()].map(x => Dec2Bin(Register.findIndex((value, index) => value === x), 5));
+                    if (label[temp[2]] === undefined) throw new Error("In line "+line+": \n \n The label is invalid!");
+                    if (isNaN(parameter[0]+parameter[1])) throw new Error("In line "+line+": \n \n The input parameter is invalid!");
+                    else return ans + parameter[0] + parameter[1] + Dec2Bin(label[temp[2]] - line - 1, 16);
+                }
+            }
+            else if (Object.keys(Inst_name.J_type).find((value) => value === inst) !== undefined)
+            {
+                let temp = other;
+                let ans = Inst_name.J_type[inst];
+                if (label[temp] === undefined) throw new Error("In line "+line+": \n \n The label is invalid!");
+                return ans + Dec2Bin(label[temp], 26);
+            }
+            else throw new Error("In line "+line+": \n \n The instruction is undefined!");
+        }
+    }
+});
+
+
